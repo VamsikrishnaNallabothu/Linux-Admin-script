@@ -149,11 +149,12 @@ def send_email(MSG):
 	server.sendmail("xxxxxxx@gmail.com", "yyyyyyyy@gmail.com", MSG)
 	server.quit()
 
-
+'''
 def main():
 	free_memory()
 	mntpt_status()
 	cpu_utilization()
+'''
 
 if __name__=="__main__":
 	mntpt_status()

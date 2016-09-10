@@ -145,8 +145,8 @@ def send_email(MSG):
 	server = smtplib.SMTP('smtp.gmail.com', 587)
 	server.starttls()
 	server.login("XXXXX@gmail.com", "mypassword")
-	my_msg = MSG
-	server.sendmail("xxxxxxx@gmail.com", "yyyyyyyy@gmail.com", my_msg)
+	#my_msg = MSG
+	server.sendmail("xxxxxxx@gmail.com", "yyyyyyyy@gmail.com", MSG)
 	server.quit()
 
 

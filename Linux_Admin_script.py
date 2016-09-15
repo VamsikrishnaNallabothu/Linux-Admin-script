@@ -5,7 +5,6 @@ import smtplib
 import time
 #from apscheduler.schedulers.blocking import BlockingScheduler
 
-
 #sudo apt-get install mpstat
 
 def mntpt_status():
